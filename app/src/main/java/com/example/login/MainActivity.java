@@ -66,9 +66,7 @@ public class MainActivity extends AppCompatActivity {
         if (password.isEmpty()) {
             return "Password cannot be empty";
         }
-        if (password.length() < 8) {
-            return "Password must be at least 8 characters long";
-        }
+       
         // Add more rules:  e.g., require a digit, a special character
         return null;
     }
