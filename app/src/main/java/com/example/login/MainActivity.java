@@ -55,9 +55,7 @@ public class MainActivity extends AppCompatActivity {
         if (username.isEmpty()) {
             return "Username cannot be empty";
         }
-        if (username.length() < 4) {
-            return "Username must be at least 4 characters long";
-        }
+        
         // Add more rules as needed
         return null; // null means valid
     }
